@@ -1,0 +1,116 @@
+body{
+	background-color: white;
+	border: 3px solid purple;
+	padding: 30px;
+	margin: 30px;
+}
+h1 {
+	color: gray;
+	font-family:;
+	font-size:;
+}
+p {
+	color: silver;
+}
+h4 {
+	color: #64ceab
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #303030;
+}
+table#t01 {
+float: left;
+width: 50%;
+height: 50%;	
+}
+table#t01 td {
+	background-color: gray;
+}
+
+td {
+	
+	border-collapse: none;
+	padding: 5px;
+}
+th {
+	text-align: left;
+}
+table {
+	width: 100%;
+	border-spacing: 20px;
+	
+}
+#mainlist {
+	background-color: gray;
+}
+p.news {
+	background-color: blue;
+}
+.log-div {
+	float : right;
+	
+}
+.h-div {
+	float: left;
+}
+a: link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: silver;
+}
+a:active {
+	color: white;
+}
+.img-banner{
+	width: 100%;
+	height: 300px;
+}
+.logins {
+	color: black;
+}
+
+.aside {
+	float: right;
+	margin-right: 30px;
+	padding: 50px;
+}
+.section{
+	overflow: auto;
+	border-right: 2px solid silver;
+	margin-right: 30px;
+	padding: 50px;
+}
+.footer {
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+}
+.footer::before {
+	content: "Powered by Comp433-Course ©.";
+}
