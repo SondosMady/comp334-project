@@ -114,3 +114,9 @@ a:active {
 .footer::before {
 	content: "Powered by Comp433-Course ©.";
 }
+.login {
+	text-align: center;
+	border: 2px solid silver;
+	margin: 200px;
+	padding: 50px;
+}
