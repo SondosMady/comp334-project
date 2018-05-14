@@ -15,15 +15,13 @@ header{
 
 #content section{
     /*margin: 30% 10% 10% 30%;*/
-    padding: 5% 25% 5% 25%;
+    padding: 5% 10% 5% 10%;
 }
 #form_layout{
     background: white;
     width: 400px;
     padding: 20px 20px 50px 20px;
-    margin-left: 10%;
-    /*margin-right: 10%;*/
-    /*margin-top: 5%;*/
+    margin-left: 100px;
     display: inline-block;
 }
 
@@ -59,7 +57,7 @@ header{
 
 #about {
     width: 400px;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10px;
     margin-top: 5px;
     display: inline-block;
