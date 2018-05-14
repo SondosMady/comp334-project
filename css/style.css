@@ -87,16 +87,16 @@ p.news {
 .h-div {
 	float: left;
 }
-a: link {
+a.section: link {
 	color: white;
 }
-a:visited {
+a.section:visited {
 	color: white;
 }
-a:hover {
+a.section:hover {
 	color: silver;
 }
-a:active {
+a.section:active {
 	color: white;
 }
 .img-banner{
@@ -177,6 +177,7 @@ p.aboutus {
 	padding: 0;
 	margin: 0;
 }
+
 .section {
 	background-color: #fff;
 	padding: 15px;
@@ -186,6 +187,8 @@ p.aboutus {
 	border-right: 2px solid silver;
 	margin-right: 30px;
 }
+	
+
 hr {
 	border: 0;
 	height: 10px;
@@ -287,3 +290,10 @@ table {
 	margin: 20px;
 	padding: 20px;
 }
+#links {
+	color: grey;
+	float: right;
+	}
+a {
+		color: white;
+	}
