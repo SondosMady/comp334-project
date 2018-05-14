@@ -6,8 +6,8 @@ body{
 }
 h1 {
 	color: gray;
-	font-family:;
-	font-size:;
+	/*font-family:;*/
+	/*font-size:;*/
 }
 p {
 	color: silver;
@@ -51,7 +51,7 @@ table#t01 td {
 
 td {
 	
-	border-collapse: none;
+	/*border-collapse: none;*/
 	padding: 5px;
 }
 th {
@@ -75,9 +75,10 @@ p.news {
 .h-div {
 	float: left;
 }
-a: link {
-	color: white;
-}
+/*a: link {*/
+	/*color: white;*/
+/*}*/
+
 a:visited {
 	color: white;
 }

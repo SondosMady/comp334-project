@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+#content{
+    background: url("../images/classroom.png") no-repeat;
+    margin: 0;
+}
+
+#form_layout{
+    background: white;
+    width: 400px;
+    padding: 20px 20px 50px 20px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+#form_layout p{
+    font: 20px bold;
+    color: black;
+}
+
+#form_layout h3{
+    font-size: 30px;
+}
+
+#form_layout input,textarea{
+    display: block;
+    margin: 15px;
+    padding: 5px;
+    width: 90%;
+    border: #303030 solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#form_layout textarea{
+    height: 100px;
+}
+
+#form_layout button{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    width: 25%;
+}
+
+#about {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#about h1,p{
+    color: white;
+}
