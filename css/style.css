@@ -1,15 +1,27 @@
+html{
+	margin: 0;
+	padding: 0;
+}
 body{
-	background-color: white;
+	font-family: 'Handlee', cursive;
+	font-size: 13pt;
+	padding: 10px;
+	margin: 0;
+	background-color: #efefef;
 	border: 3px solid purple;
 	padding: 30px;
 	margin: 30px;
 }
 h1 {
-	color: gray;
-	font-family:;
-	font-size:;
+	font-size: 15pt;
+	color: #20bcd5;
+	text-align: center;
+	padding: 18px 0 18px 0;
+	margin: 0 0 10px 0;
 }
 p {
+	padding: 0;
+	margin: 0;
 	color: silver;
 }
 h4 {
@@ -100,12 +112,7 @@ a:active {
 	margin-right: 30px;
 	padding: 50px;
 }
-.section{
-	overflow: auto;
-	border-right: 2px solid silver;
-	margin-right: 30px;
-	padding: 50px;
-}
+
 .footer {
 	width: 100%;
 	text-align: center;
@@ -144,12 +151,7 @@ p.aboutus {
 	padding: 0;
 	margin: 0;
 }
-.section {
-	background-color: #fff;
-	padding: 15px;
-	margin-bottom: 10px;
-	border-radius: 10px;
-}
+
 
 body.aboutus {
 	font-family: 'Handlee', cursive;
@@ -180,6 +182,9 @@ p.aboutus {
 	padding: 15px;
 	margin-bottom: 10px;
 	border-radius: 10px;
+	overflow: auto;
+	border-right: 2px solid silver;
+	margin-right: 30px;
 }
 hr {
 	border: 0;
@@ -217,4 +222,68 @@ input, textarea {
 	border-radius: 5px;
 	width: 70%;
 	outline: none;
+}
+.img-circle {
+	border: 3px solid white;
+	border-radius: 50%;
+	
+	
+}
+#header {
+	background-image: url();
+	background-size: cover;
+}
+#header img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	
+}
+#header p {
+	font-size: 35pt;
+	color: #3b464c;
+	padding-top: 5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+}
+.quote {
+	font-size: 12pt;
+	text-align: right;
+	margin-top: 10px;
+}
+table {
+	width: 100%;
+	font-size: 11pt;
+}
+#contacts img {
+	height: 50px;
+	width: 50px;
+	margin-left: 7px;
+	margin-right: 7px;
+	
+}
+#contacts a {
+	text-decoration: none;
+}
+#contact img:hover {
+	opacity: 0.8;
+}
+#contacts {
+	text-align: center;
+	
+}
+.copyright {
+	font-size: 8pt;
+	text-align: right;
+	padding-bottom: 10px;
+	color: grey;
+}
+.logos img{
+	border: 1px solid silver;
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+	padding: 20px;
 }
