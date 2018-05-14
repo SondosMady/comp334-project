@@ -63,7 +63,7 @@ table#t01 td {
 
 td {
 	
-	border-collapse: none;
+	/*border-collapse: none;*/
 	padding: 5px;
 }
 th {
@@ -87,9 +87,9 @@ p.news {
 .h-div {
 	float: left;
 }
-a.section: link {
-	color: white;
-}
+/*a.section: link {*/
+	/*color: white;*/
+/*}*/
 a.section:visited {
 	color: white;
 }
@@ -233,7 +233,7 @@ input, textarea {
 	
 }
 #header {
-	background-image: url();
+	/*background-image: url();*/
 	background-size: cover;
 }
 #header img {
