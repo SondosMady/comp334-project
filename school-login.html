@@ -15,14 +15,15 @@
 			<div style="max-width:150px; margin:0 auto;">
 				<img class="logo img-fluid" src="css/images/logo.png" alt="Logo">
 			</div>
-			<div>
-				<form class="form" method="post" action="#">
+			<div class="login">
+				<form class="form" method="post" action="/submit">
 					<h1>Login</h1>
 					<label>UserName: </label>
-					<input type="text" name="UserName" id="UserName">
+					<input type="text" name="UserName" id="UserName" placeholder="Enter username" required>
+					</br></br>
 					<label>Password: </label>
 					<input type="Password" name="Password" id="Password">
-					<input type="button" name="Login" id="Login" value="Login">
+					<input type="submit" name="Login" id="Login" value="Login">
 				</form>
 			</div>
 			<div class="footer">
