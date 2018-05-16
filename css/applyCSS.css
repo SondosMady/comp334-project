@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+header nav a[href="applyPage.html"]{
+    color: white;
+}
+
 #content{
     background: url("../images/classroom.png") no-repeat fixed;
     margin: 0;

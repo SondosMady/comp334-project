@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+header nav a[href="tuitionFeesPage.html"]{
+    color: white;
+}
+
 header,footer{
     width: 100%;
     height: 180px;
